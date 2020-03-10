@@ -28,7 +28,8 @@ twitter_username: crusty91
 github_username:  Crusty91
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
