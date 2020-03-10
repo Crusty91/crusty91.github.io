@@ -20,6 +20,11 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-relative-links"
   gem "jekyll-include-cache"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jemoji"
+  gem "jekyll-algolia"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
