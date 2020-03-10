@@ -29,12 +29,14 @@ github_username:  Crusty91
 
 # Build settings
 # theme: minima
-remote_theme: mmistakes/minimal-mistakes
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
