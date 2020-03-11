@@ -5,6 +5,17 @@ excerpt: "Demo on AWS services"
 
 # Configure CLI
 
+#. [Install the cli](https://aws.amazon.com/fr/cli/)
+#. Retrieve a valid access key from aws console
+#. Configure the access key:
+```bash
+aws configure
+```
+3. Use it!
+```bash
+aws s3 ls
+```
+
 ls ~/.aws/
  - config:
     * region

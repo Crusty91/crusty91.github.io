@@ -6,7 +6,7 @@ feature_row:
     alt: "AWS"
     title: "AWS Demos"
     excerpt: "A couple of demos to support AWS trainings"
-    url: "/demos/00-AWS/"
+    url: "/demos/aws-00/"
     btn_class: "btn--primary"
     btn_label: "Learn more"   
 ---
