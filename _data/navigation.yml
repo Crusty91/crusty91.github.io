@@ -4,10 +4,15 @@ main:
     url: /about/
 
 demos:
-    - title: "AWS"
+    - title: "AWS - CSAA"
       url: /demos/00-aws/
       children:
-        - title: "CSAA - S3"
-          url: /demos/csaa-01-aws-S3/
-        - title: "Dev - S3"
-          url: /demos/dev-01-aws-S3/
+          - title: "S3"
+            url: /demos/aws-csaa-01-S3/
+    - title: "AWS - Dev"
+      url: /demos/00-aws/
+      children:
+          - title: "S3"
+            url: /demos/aws-dev-01-S3/
+          - title: "Cloud9"
+            url: /demos/aws-dev-02-cloud9/

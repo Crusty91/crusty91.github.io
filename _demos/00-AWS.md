@@ -20,6 +20,7 @@ ls ~/.aws/
 ## Python
 
 region specified in file system config file.
+
 [Boto3 QuickStart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 
 ## Java
@@ -40,4 +41,13 @@ if (region == null) {
 ## .Net C#
 
 region specified in app.config
-
+```xml
+<configuration>
+  <configSections>
+    <section name="aws" type="Amazon.AWSSection, AWSSDK.Core"/>
+  </configSections>
+  <aws region="us-west-2">
+    <logging logTo="Log4Net"/>
+  </aws>
+</configuration>
+```
