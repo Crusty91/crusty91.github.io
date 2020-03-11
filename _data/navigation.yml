@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+
+demos:
+    - title: "AWS"
+      url: /demos/00-aws/
+      children:
+        - title: "CSAA - S3"
+          url: /demos/csaa-01-aws-S3/
+        - title: "Dev - S3"
+          url: /demos/dev-01-aws-S3/
