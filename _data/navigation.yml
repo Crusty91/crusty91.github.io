@@ -16,3 +16,5 @@ demos:
             url: /demos/aws-dev-01-S3/
           - title: "Cloud9"
             url: /demos/aws-dev-02-cloud9/
+          - title: "Exceptions"
+            url: /demos/aws-dev-03-exceptions/
