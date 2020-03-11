@@ -5,7 +5,7 @@ main:
 
 demos:
     - title: "AWS - CSAA"
-      url: /demos/00-aws/
+      url: /demos/aws-00/
       children:
           - title: "S3"
             url: /demos/aws-csaa-01-S3/
