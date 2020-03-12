@@ -16,13 +16,11 @@ aws configure
 aws s3 ls
 ```
 
-ls ~/.aws/
- - config:
-    * region
-    * output format
- - credentials
-    * access key
-    * access secret
+If you want to check your local configuration, it is located in the directory *[~/.aws/](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)*:
+- **config**: *configuration pour l'utilisation du cli aws.* 
+   * region par defaut
+   * format de sortie des commandes
+- **credentials**: *configuration des différentes acces key pour se connecter a aws.*
 
 # Connect to Console
 

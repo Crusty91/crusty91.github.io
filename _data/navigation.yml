@@ -8,12 +8,12 @@ demos:
       url: /demos/aws-00/
       children:
           - title: "S3"
-            url: /demos/aws-csaa-01-S3/
+            url: /demos/aws-csaa-01-s3/
     - title: "AWS - Dev"
       url: /demos/aws-00/
       children:
           - title: "S3"
-            url: /demos/aws-dev-01-S3/
+            url: /demos/aws-dev-01-s3/
           - title: "Cloud9"
             url: /demos/aws-dev-02-cloud9/
           - title: "Exceptions"
