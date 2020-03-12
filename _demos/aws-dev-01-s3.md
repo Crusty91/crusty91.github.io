@@ -40,8 +40,3 @@ s3.Bucket('{uniquebucketname}').download_file('{myfile}')
 
 ## Static Website
 
-[Demo of hosting a static website with S3]({% link _demos/aws-csaa-01-s3.md %}#static-website)
-
-## Versionning
-
-[Demo of versionning files with S3]({% link _demos/aws-csaa-01-s3.md %}#create-versioning)
