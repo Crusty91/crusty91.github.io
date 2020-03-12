@@ -206,6 +206,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -217,6 +218,7 @@ whitelist:
   - jekyll-github-metadata
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
