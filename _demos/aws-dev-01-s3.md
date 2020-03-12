@@ -27,13 +27,6 @@ for content in response['Contents']:
 import boto3
 # connect to s3 resources
 s3 = boto3.resource('s3')
-# connect to a bucket
-mybucket = s3.Bucket('{uniquebucketname}')
-# list all objects in the bucket
-for object in mybucket.objects.all():
-    print(object)
-# download a file
-s3.Bucket('{uniquebucketname}').download_file('{myfile}')
 ```
 
 # AWS Console example
