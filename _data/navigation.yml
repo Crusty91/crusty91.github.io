@@ -20,3 +20,5 @@ aws:
             url: /demos/aws-dev-02-cloud9/
           - title: "Exceptions"
             url: /demos/aws-dev-03-exceptions/
+          - title: "DynamoDB"
+            url: /demos/aws-dev-04-dynamodb/
