@@ -1,6 +1,7 @@
 ---
 title: "AWS Dev Cloud9"
 excerpt: "Demo on AWS Cloud9"
+toc: true
 ---
 
 # Create a Cloud9 environment

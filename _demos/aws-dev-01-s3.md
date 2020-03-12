@@ -1,6 +1,7 @@
 ---
 title: "AWS Dev S3"
 excerpt: "Demo on AWS S3 service"
+toc: true
 ---
 
 # Python API example
@@ -35,6 +36,12 @@ for object in mybucket.objects.all():
 s3.Bucket('{uniquebucketname}').download_file('{myfile}')
 ```
 
+# AWS Console example
+
+## Static Website
+
+[Demo of hosting a static website with S3]({% link _demos/aws-csaa-01-s3.md %}#static-website)
+
 ## Versionning
 
-[Demo of versionning with S3]({% link _demos/aws-csaa-01-s3.md %}#create-versioning)
+[Demo of versionning files with S3]({% link _demos/aws-csaa-01-s3.md %}#create-versioning)

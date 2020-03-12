@@ -1,6 +1,7 @@
 ---
 title: "AWS Dev Exceptions"
 excerpt: "Demo on AWS Exceptions"
+toc: true
 ---
 
 In AWS sdk, you can catch exception from AWS services to act upon it.

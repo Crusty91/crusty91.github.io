@@ -1,11 +1,12 @@
 ---
 title: "AWS CSAA S3"
 excerpt: "Demo on AWS S3 service"
+toc: true
 ---
 
-# Bucket creation and usage
+# AWS CLI
 
-## Create a bucket with az cli
+## Create a bucket
 
 In this demo, we will create a bucket and upload a simple file to it using az-cli
 
@@ -30,6 +31,16 @@ aws s3 ls s3://{MyUniqueBucketName}
 aws s3 cp s3://{MyUniqueBucketName}/{myfile}
 ```
 
-## Upload website
+# AWS Console
+
+## Static website
 
 ## Create versioning
+
+1. Create a Bucket
+1. Enable Versioning
+    a. Go to properties
+    a. Open Versioning property
+    a. Click on enable versioning and save
+1. Upload an object
+1. Modify the object
