@@ -4,7 +4,7 @@ excerpt: "Demo on AWS services"
 toc: true
 ---
 
-# Configure CLI
+## Configure CLI
 
 1. [Install the cli](https://aws.amazon.com/fr/cli/)
 1. Retrieve a valid access key from aws console
@@ -23,17 +23,17 @@ If you want to check your local configuration, it is located in the directory *[
    * format de sortie des commandes
 - **credentials**: *configuration des différentes acces key pour se connecter a aws.*
 
-# Connect to Console
+## Connect to Console
 
-# Configure SDK
+## Configure SDK
 
-## Python
+### Python
 
 region specified in file system config file.
 
 [Boto3 QuickStart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 
-## Java
+### Java
 
 region is specified in code
 
@@ -48,7 +48,7 @@ if (region == null) {
 }
 ```
 
-## .Net C#
+### .Net C#
 
 region specified in app.config
 ```xml

@@ -58,6 +58,12 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+comments:
+  provider: "utterances"
+  utterances:
+      theme: "github-light"
+      issue_term: "pathname"
+      label: "question"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -184,7 +190,7 @@ defaults:
       read_time: false
       author_profile: false
       share: false
-      comments: false
+      comments: true
       sidebar:
         nav: "aws"
 
