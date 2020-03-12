@@ -27,9 +27,21 @@ for content in response['Contents']:
 import boto3
 # connect to s3 resources
 s3 = boto3.resource('s3')
+# connect to a bucket
+mybucket = s3.Bucket('{uniquebucketname}')
+# list all objects in the bucket
+for object in mybucket.objects.all():
+    print(object)
+# download a file
+s3.Bucket('{uniquebucketname}').download_file('{myfile}')
 ```
 
 # AWS Console example
 
 ## Static Website
 
+[Demo of hosting a static website with S3]({% link _demos/aws-csaa-01-s3.md %}#static-website)
+
+## Versionning
+
+[Demo of versionning files with S3]({% link _demos/aws-csaa-01-s3.md %}#create-versioning)
