@@ -36,7 +36,7 @@ Lambda is a Serverless managed compute service from AWS.
 
 1. [Install the AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
 1. got to your locally directory containing the function
-    1. You can download my sample [here](({% link assets/files/lambda-hello-world-js %})
+    1. You can view the sample I use [here](/assets/files/lambda-hello-world-js)
 1. run the invoke command
 ```bash
 sam local invoke helloworld -e .\testEvent.json
