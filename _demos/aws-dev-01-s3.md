@@ -34,3 +34,7 @@ for object in mybucket.objects.all():
 # download a file
 s3.Bucket('{uniquebucketname}').download_file('{myfile}')
 ```
+
+## Versionning
+
+[Demo of versionning with S3]({% link _demos/aws-csaa-01-s3.md %}#create-versioning)

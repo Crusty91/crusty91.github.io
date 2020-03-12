@@ -186,7 +186,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "demos"
+        nav: "aws"
 
 # Outputting
 permalink: /:categories/:title/

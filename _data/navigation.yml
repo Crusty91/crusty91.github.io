@@ -1,9 +1,11 @@
 # main links
 main:
+  - title: "AWS Demos"
+    url: /demos/aws-00/
   - title: "About"
     url: /about/
 
-demos:
+aws:
     - title: "AWS - CSAA"
       url: /demos/aws-00/
       children:
