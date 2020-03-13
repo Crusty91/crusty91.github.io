@@ -24,3 +24,7 @@ aws:
             url: /demos/aws-dev-04-dynamodb/
           - title: "Lambda"
             url: /demos/aws-dev-05-lambda/
+          - title: "API Gateway"
+            url: /demos/aws-dev-06-apigtw/
+          - title: "Containers"
+            url: /demos/aws-dev-07-containers/
