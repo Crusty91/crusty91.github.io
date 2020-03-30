@@ -12,16 +12,16 @@ toc: true
     1. Select t2.micro
     1. Assign public IP
     1. Fill User Data
-    ```bash
-    #!/bin/bash
-    yum update -y
-    yum install httpd -y
-    service httpd start
-    chkconfig httpd on
-    cd /var/www/html
-    hostname=$(curl -s http://169.254.169.254/latest/meta-data/public-hostname)
-    echo "<html><h1>Hello Students Welcome To My Webpage on ${hostname }</h1></html>" > index.html
-    ```
+```bash
+#!/bin/bash
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+hostname=$(curl -s http://169.254.169.254/latest/meta-data/public-hostname)
+echo "<html><h1>Hello Students Welcome To My Webpage on ${hostname}</h1></html>" > index.html
+```
     1. Storage default
     1. Tag Name: Website
     1. Select Security group with http enabled from everywhere
@@ -32,4 +32,5 @@ toc: true
     1. Open ssh connection to ec2
 ```bash
 cat /var/log/cloud-init.log
+cat /var/log/cloud-init-output.log
 ```
