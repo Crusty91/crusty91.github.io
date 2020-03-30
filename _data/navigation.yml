@@ -11,6 +11,8 @@ aws:
       children:
           - title: "S3"
             url: /demos/aws-csaa-01-s3/
+          - title: "EC2"
+            url: /demos/aws-csaa-02-ec2/
     - title: "AWS - Dev"
       url: /demos/aws-00/
       children:
