@@ -39,7 +39,7 @@ toc: true
 ### If I activate VPC Endpoint on an S3 Bucket, is public access disabled?
 > No, you have to configure ACL or Resource Policy to do that. A good example can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/block-s3-traffic-vpc-ip/)
 
-## Normes
+## Standards/Certifications
 
 ### Is AWS Compliant to a specific norm?
 > If you want to validate if AWS is compliant with a specific norme, you can check on [The compliance programs page](https://aws.amazon.com/fr/compliance/programs/)
