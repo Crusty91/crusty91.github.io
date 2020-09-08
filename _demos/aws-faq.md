@@ -12,6 +12,9 @@ toc: true
 ### Can I migrate from another managed db service (like Heroku)?
 > If you don't have full admins credentials, you will have to perform an export/import to load your DB content into an RDS instance. Depending on your scenario, you can leverage Lambda functions to perform it on a regular basis, therefore facilitate the full migration when you are ready.
 
+### When scaling my DataBase, is there a service interruption?
+> If you don't have replicas, your database will be interrupted for the duration of the scaling operation. With replicas, one of the replica will be scaled up or down first, then your request will be redirected to this replica while your other replicas are upgraded, so there is minimum to no interruption
+
 ## S3
 
 ### Why should S3 buckets names be globally uniques?
@@ -38,6 +41,9 @@ toc: true
 
 ### If I activate VPC Endpoint on an S3 Bucket, is public access disabled?
 > No, you have to configure ACL or Resource Policy to do that. A good example can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/block-s3-traffic-vpc-ip/)
+
+### With transit Gateway, can two IP range overlap between two VPS
+> Short answer, no, it can't, you won't be able to add the second VPC to the service
 
 ## Standards/Certifications
 

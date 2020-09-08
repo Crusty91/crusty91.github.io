@@ -32,12 +32,25 @@ Lambda is a Serverless managed compute service from AWS.
 1. You can edit the function with the built-in editor on the same screen
 1. You can monitor your function using monitor tab
 
-### Test a lambda function locally
-
+## SAM
 1. [Install the AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
-1. got to your locally directory containing the function
-    1. You can view the sample I use [here](/assets/files/lambda-hello-world-js)
-1. run the invoke command
+1. run the init command
 ```bash
-sam local invoke helloworld -e .\testEvent.json
+sam init
+```
+    1. Choose 1 for the quickstart template
+    1. Choose your prefered language
+    1. Select the default name
+    1. Select Hello World Example
+1. If you have docker installed, you can test the function locally
+```bash
+    sam local invoke "HelloWorldFunction" -e events/event.json
+```
+1. You can now deploy your function to AWS
+```bash
+    sam deploy -g
+```
+1. You can delete your stack using aws cli
+```bash
+    aws cloudformation delete-stack --stack-name ${stackname} --region ${region}
 ```
