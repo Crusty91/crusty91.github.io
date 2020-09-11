@@ -20,7 +20,7 @@ docker images
 ```
 1. To test the image:
 ```bash
-docker run --name test-image -d -p 8080:8080
+docker run -d -p 8080:8080 test-image
 ```
 1. You can now open the url http://localhost:8080/ and view "Hello World".
 1. To connect to the container:
