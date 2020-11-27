@@ -203,8 +203,6 @@ defaults:
       show_date: false
       toc: true
       toc_label: "Table of Content"
-      sidebar:
-        nav: "aws"
 
 # Outputting
 permalink: /:categories/:title/

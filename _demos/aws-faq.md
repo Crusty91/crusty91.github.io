@@ -2,6 +2,8 @@
 title: "AWS FAQ"
 excerpt: "Frequently Asked Question during AWS Trainings"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 ## Databases

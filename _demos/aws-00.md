@@ -2,6 +2,8 @@
 title: "AWS Demo"
 excerpt: "Demo on AWS services"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 ## Configure CLI
