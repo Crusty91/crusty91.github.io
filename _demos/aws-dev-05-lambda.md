@@ -2,6 +2,8 @@
 title: "AWS Dev Lambda"
 excerpt: "Demo on AWS Lambda"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 Lambda is a Serverless managed compute service from AWS.

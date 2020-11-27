@@ -2,6 +2,8 @@
 title: "AWS CSAA EC2"
 excerpt: "Demo on AWS EC2 instance"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 ## AWS Console

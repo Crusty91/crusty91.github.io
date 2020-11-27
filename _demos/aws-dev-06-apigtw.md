@@ -2,6 +2,8 @@
 title: "AWS Dev API Gateway"
 excerpt: "Demo on AWS API Gateway"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.

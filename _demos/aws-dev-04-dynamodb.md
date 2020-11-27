@@ -2,6 +2,8 @@
 title: "AWS Dev DynamoDB"
 excerpt: "Demo on AWS DynamoDB"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 DynamoDB is a NoSQL managed database service from AWS.

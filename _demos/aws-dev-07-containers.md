@@ -2,6 +2,8 @@
 title: "Containers on AWS"
 excerpt: "Demo on working with containers on AWS"
 toc: true
+sidebar:
+    nav: "aws"
 ---
 
 ## Dockerfile

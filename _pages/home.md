@@ -21,7 +21,7 @@ feature_content:
     alt: "Azure"
     title: "Azure Related Content"
     excerpt: "A couple of demos to support Azure trainings, QnA and usefull links."
-    url: "/demos/az-00/"
+    url: "/demos/azure-00/"
     btn_class: "btn--info"
     btn_label: "Learn more"  
 ---
