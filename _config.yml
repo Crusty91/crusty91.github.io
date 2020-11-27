@@ -47,7 +47,7 @@ minimal_mistakes_skin    : "contrast" # "default", "aqua", "air", "dark", "dirt"
 locale                   : "en"
 title                    : Sylvain Barbot
 title_separator          : "|"
-subtitle                 : "Personnal Site"
+subtitle                 : "My Personnal Website"
 name                     : &name "Sylvain Barbot" # &name is a YAML anchor which can be *referenced later
 description              : &description "Technical demo I use in training, tutorials and other things."
 url                      : https://crusty91.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -86,7 +86,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/sb-logo-256x256.png"
   bio              : "1/3 Trainer, 1/3 Architect, 1/3 Developer"
-  location         : "Saint-Jean-Sur-Richelieu, QC, CANADA"
+  location         : "St-Jean/Richelieu, QC, CANADA"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
