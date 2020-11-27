@@ -28,8 +28,6 @@ feature_azure:
 ---
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
-
 {% include feature_row id="feature_aws" type="left" %}
 
 {% include feature_row id="feature_azure" type="right" %}
