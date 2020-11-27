@@ -12,14 +12,12 @@ intro:
 feature_content:
   - image_path: /assets/images/logo-aws.png
     alt: "AWS"
-    title: "AWS Related Content"
     excerpt: "A couple of demos to support AWS trainings, QnA and usefull links."
     url: "/demos/aws-00/"
     btn_class: "btn--info"
     btn_label: "Learn more"
   - image_path: /assets/images/logo-azure.png
     alt: "Azure"
-    title: "Azure Related Content"
     excerpt: "A couple of demos to support Azure trainings, QnA and usefull links."
     url: "/demos/azure-00/"
     btn_class: "btn--info"
