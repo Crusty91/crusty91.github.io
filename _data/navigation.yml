@@ -4,6 +4,14 @@ main:
     url: /demos/aws-00/
   - title: "AWS FAQ"
     url: /demos/aws-faq/
+  - title: "AWS Usefull Links"
+    url: /demos/aws-links/
+  - title: "Azure Demos"
+    url: /demos/azure-00/
+  - title: "Azure FAQ"
+    url: /demos/azure-faq/
+  - title: "Azure Usefull Links"
+    url: /demos/azure-links/
   - title: "About"
     url: /about/
 
@@ -34,3 +42,13 @@ aws:
             url: /demos/aws-dev-07-containers/
     - title: "AWS FAQ"
       url: /demos/aws-faq/
+    - title: "AWS Usefull Links"
+      url: /demos/aws-links/
+
+azure:
+    - title: "Azure"
+      url: /demos/azure-00/
+    - title: "Azure FAQ"
+      url: /demos/azure-faq/
+    - title: "Azure Usefull Links"
+      url: /demos/azure-links/
