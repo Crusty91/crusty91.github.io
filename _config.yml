@@ -41,23 +41,24 @@
 #   - vendor/gems/
 #   - vendor/ruby/
 
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
-minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin    : "contrast" # "default", "aqua", "air", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-locale                   : "en-US"
+locale                   : "en"
 title                    : Sylvain Barbot
-title_separator          : "-"
-subtitle                 : "Technical demos"
+title_separator          : "|"
+subtitle                 : "Personnal Site"
 name                     : &name "Sylvain Barbot" # &name is a YAML anchor which can be *referenced later
-description              : &description "Technical demo for the trainings I provide, tutorials and other stuffs."
+description              : &description "Technical demo I use in training, tutorials and other things."
 url                      : https://crusty91.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Crusty91/crusty91.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/sb-logo-88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 250
+search                   : true
 comments:
   provider: "utterances"
   utterances:
@@ -78,17 +79,21 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/crusty91"
+    - "https://www.linkedin.com/in/sbarbot/"
 
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/sylvain-barbot.jpeg"
-  bio              : "Just another *technical*."
-  location         : "Montreal, QC, CANADA"
+  avatar           : "/assets/images/sb-logo-256x256.png"
+  bio              : "1/3 Trainer, 1/3 Architect, 1/3 Developer"
+  location         : "Saint-Jean-Sur-Richelieu, QC, CANADA"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/crusty91"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/sbarbot/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Crusty91"
@@ -99,6 +104,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/crusty91"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/sbarbot/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Crusty91"
@@ -174,6 +182,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -191,6 +200,7 @@ defaults:
       author_profile: false
       share: false
       comments: true
+      show_date: false
       sidebar:
         nav: "aws"
 
