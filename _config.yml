@@ -86,7 +86,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/sb-logo-256x256.png"
   bio              : "1/3 Trainer, 1/3 Architect, 1/3 Developer"
-  location         : "St-Jean/Richelieu, QC, CANADA"
+  location         : "Québec, Canada"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -201,6 +201,8 @@ defaults:
       share: false
       comments: true
       show_date: false
+      toc: true
+      toc_label: "Table of Content"
       sidebar:
         nav: "aws"
 
